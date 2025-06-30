@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.mycompany</groupId>
+        <artifactId>my-multi-module-project</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath> <!-- 상위 pom.xml 경로 -->
+    </parent>
+
+    <artifactId>pilot</artifactId>
+    <packaging>jar</packaging> <!-- 또는 해당 모듈의 패키징 타입 -->
+
+    <dependencies>
+        <!-- pilot 모듈에 필요한 의존성을 여기에 추가 -->
+        <!-- 예시: -->
+        <!--
+        <dependency>
+            <groupId>some.other.library</groupId>
+            <artifactId>some-other-library-artifact</artifactId>
+        </dependency>
+        -->
+    </dependencies>
+
+</project>

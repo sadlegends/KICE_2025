@@ -1,0 +1,6 @@
+EVT001#LoginSuccess
+EVT001#LoginSuccess#0
+EVT002#LoginFailed#1
+EVT003#FileDownload
+ADM005#AdminLoginFailed#1
+USR001#UserRegistration
