@@ -1,0 +1,13 @@
+{
+  "models": [
+    {
+      "modelname": "testmodel",
+      "url": "http://localhost:9000/mock",
+      "classes": [
+        { "code": "A", "value": "ClassA" },
+        { "code": "B", "value": "ClassB" },
+        { "code": "C", "value": "ClassC" }
+      ]
+    }
+  ]
+}
